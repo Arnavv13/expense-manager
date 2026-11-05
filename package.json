@@ -1,0 +1,19 @@
+{
+  "name": "expense-manager",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^8.3.5"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "chart.js": "^4.6.1",
+    "tailwindcss": "^4.3.3"
+  }
+}

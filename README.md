@@ -2,11 +2,11 @@
 
 **Track smarter. Spend better.**
 
-Expensee Manager is a full-stack personal finance management application built using JavaScript, Node.js, Express.js, and MongoDB. It helps users manage their income and expenses, set monthly budgets, monitor transactions, and understand their spending habits through interactive analytics.
+Expense Manager is a full-stack personal finance management application built using JavaScript, Node.js, Express.js, and MongoDB. It helps users manage their income and expenses, set monthly budgets, monitor transactions, and understand their spending habits through interactive analytics.
 
 ## Live Demo
 
-**[Open Expensee Manager](https://expense-manager-frontend-fnv7.onrender.com)**
+**[Open Expense Manager](https://expense-manager-frontend-fnv7.onrender.com)**
 
 **GitHub Repository:** [github.com/Arnavv13/expense-manager](https://github.com/Arnavv13/expense-manager)
 
@@ -130,7 +130,7 @@ Configure the following variables:
 
 ```env
 PORT=5000
-MONGO_URI=mongodb://127.0.0.1:27017/expensee_manager
+MONGO_URI=mongodb://127.0.0.1:27017/expense_manager
 JWT_SECRET=your_own_random_secret
 JWT_EXPIRES_IN=1d
 ```
@@ -214,4 +214,4 @@ If you find this project useful, consider giving the repository a star.
 
 ---
 
-**Expensee Manager — Track smarter. Spend better.**
+**Expense Manager — Track smarter. Spend better.**

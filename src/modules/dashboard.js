@@ -335,7 +335,7 @@ const avatarLetter = displayName.charAt(0).toUpperCase() || 'A'
 
         <div class="brand">
           <span class="brand-icon">₹</span>
-          <span>Expensee</span>
+          <span>Expense</span>
         </div>
 
         <div class="sidebar-label">MENU</div>
@@ -653,7 +653,7 @@ const avatarLetter = displayName.charAt(0).toUpperCase() || 'A'
         </section>
 
         <footer class="footer">
-          Expensee Manager · Manage your money smarter.
+          Expense Manager · Manage your money smarter.
         </footer>
 
       </main>

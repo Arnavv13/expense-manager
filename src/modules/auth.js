@@ -35,7 +35,7 @@ export function renderAuthScreen(app, onAuthenticated) {
                     </div>
 
                     <p class="auth-copyright">
-                        © ${new Date().getFullYear()} Expensee Manager
+                        © ${new Date().getFullYear()} Expense Manager
                     </p>
                 </section>
 
@@ -43,7 +43,7 @@ export function renderAuthScreen(app, onAuthenticated) {
                     <div class="auth-form-container">
                         <div class="auth-mobile-brand">
                             <span class="auth-brand-icon">₹</span>
-                            <strong>Expensee</strong>
+                            <strong>Expense</strong>
                         </div>
 
                         <span class="auth-eyebrow">

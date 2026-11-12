@@ -2460,3 +2460,69 @@ td {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+
+/* =====================================
+   MOBILE DASHBOARD FIX
+===================================== */
+
+@media (max-width: 650px) {
+
+  /* Fix dashboard header overlapping the button */
+  .topbar {
+    height: auto;
+    min-height: 0;
+    padding: 0;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+  }
+
+  .topbar > div {
+    width: 100%;
+  }
+
+  /* Make Add Transaction button visible */
+  .topbar .primary-btn {
+    display: flex;
+    width: 100%;
+    min-height: 48px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  /* Prevent dashboard content overflow */
+  .main-content {
+    min-width: 0;
+    width: 100%;
+    padding: 18px 15px;
+  }
+
+  .stats-grid,
+  .dashboard-grid {
+    min-width: 0;
+    width: 100%;
+  }
+
+  /* Make transaction popup fit mobile screens */
+  .transaction-dialog {
+    width: calc(100% - 24px);
+    max-width: 450px;
+    max-height: calc(100dvh - 24px);
+    margin: auto;
+    padding: 20px;
+    overflow-y: auto;
+  }
+
+  .dialog-actions {
+    flex-wrap: wrap;
+  }
+
+  .dialog-actions button {
+    flex: 1;
+    min-height: 44px;
+  }
+}

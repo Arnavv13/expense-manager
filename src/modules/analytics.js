@@ -345,7 +345,7 @@ export function renderAnalyticsPage(app, onNavigate) {
 
         <div class="brand">
           <span class="brand-icon">₹</span>
-          <span>Expensee</span>
+          <span>Expense</span>
         </div>
 
         <div class="sidebar-label">MENU</div>
@@ -572,7 +572,7 @@ export function renderAnalyticsPage(app, onNavigate) {
         </section>
 
         <footer class="footer">
-          Expensee Manager · Manage your money smarter.
+          Expense Manager · Manage your money smarter.
         </footer>
 
       </main>

@@ -1,7 +1,7 @@
 import { transactions } from './transactions.js'
 import { money, escapeHTML } from '../utils/formatters.js'
 import { getCurrentUser } from '../services/api.js'
-const STORAGE_KEY = 'expensee-monthly-budgets'
+const STORAGE_KEY = 'expense-monthly-budgets'
 
 let monthlyBudgets = {}
 let loadedUserKey = null
@@ -264,7 +264,7 @@ export function renderBudgetsPage(app, onNavigate) {
       <aside class="sidebar">
         <div class="brand">
           <span class="brand-icon">₹</span>
-          <span>Expensee</span>
+          <span>Expense</span>
         </div>
 
         <div class="sidebar-label">MENU</div>
@@ -412,7 +412,7 @@ export function renderBudgetsPage(app, onNavigate) {
         </section>
 
         <footer class="footer">
-          Expensee Manager · Manage your money smarter.
+          Expense Manager · Manage your money smarter.
         </footer>
       </main>
     </div>

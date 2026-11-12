@@ -16,7 +16,7 @@ export function renderAuthScreen(app, onAuthenticated) {
                 <section class="auth-brand-panel">
                     <div class="auth-brand">
                         <span class="auth-brand-icon">₹</span>
-                        <span>Expensee</span>
+                        <span>Expense</span>
                     </div>
 
                     <div class="auth-brand-content">
